@@ -1,0 +1,34 @@
+import React from 'react'
+
+const Footer = () => {
+  return (
+    <div>
+      <div className="bg-indigo-800   ">
+    <div className="max-w-screen-xl py-10 px-4 sm:px-6 text-gray-800 sm:flex justify-between mx-auto">
+        <div className="p-5 sm:w-8/12">
+            <h3 className="font-bold text-3xl text-white   mb-4">Componentity</h3>
+
+            <div className="flex text-gray-500 uppercase text-sm">
+                <a href="#" class="mr-2 text-white">Home</a>
+                <a href="#" class="mr-2 text-white">About Us</a>
+                <a href="#" class="mr-2  text-white">Contact Us</a>
+                <a href="#" class="mr-2 text-white">Support Us</a>
+            </div>
+
+        </div>
+        <div className="p-5 sm:w-4/12">
+            <h3 className="font-medium text-lg text-white    mb-4">Subscribe to our Newsletter</h3>
+            <form className="mt-4">
+                <input className="border  bg-white   rounded w-full px-4 py-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" placeholder="username@email.com" />
+            </form>
+        </div>
+    </div>
+    <div className="flex py-5 m-auto text-gray-800 text-sm flex-col items-center border-t max-w-screen-xl">
+        <p>© Copyright 2020. All Rights Reserved.</p>
+    </div>
+</div>
+    </div>
+  )
+}
+
+export default Footer
